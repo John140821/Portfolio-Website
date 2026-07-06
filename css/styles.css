@@ -1,0 +1,129 @@
+/* --- Global Styles --- */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFDFD; /* Clean off-white */
+    color: #595959; /* Soft dark grey for readable text */
+}
+
+h1 {
+    font-family: 'Fira Code', monospace; 
+    font-size: 4.5rem;
+    margin: 50px auto 0 auto;
+    color: #8BAAAD; /* Muted pastel teal/blue */
+}
+
+h2 {
+    font-family: 'Fira Code', monospace;
+    font-size: 2.5rem;
+    color: #6C8D90; 
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    color: #8BAAAD;
+}
+
+p {
+    line-height: 2;
+    font-size: 1.1rem;
+}
+
+/* --- Fixing the Giant Profile Picture --- */
+.profile img {
+    width: 250px; /* Shrinks the image down */
+    height: 250px; /* Keeps it square */
+    object-fit: cover; /* Prevents the image from looking stretched/squished */
+    border-radius: 50%; /* Turns the square into a perfect circle */
+    margin-top: 30px;
+}
+
+/* --- Layout Containers --- */
+.top-container {
+    background-color: #E8F0F2; /* Soft pastel blue-grey */
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #DDE7E9; /* Slightly darker pastel for the footer */
+    padding: 50px 0 20px;
+}
+
+hr {
+    border: dotted #D3D3D3 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/* --- Skill Rows --- */
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skill-img1 {
+    width: 20%; 
+    float: left; 
+    margin-right: 30px;
+    border-radius: 50%; 
+}
+
+/* Add this new block to make the second image float to the right */
+.skill-img2 {
+    width: 20%;
+    float: right; 
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.skill-img1 {
+    width: 20%; /* Controls the size of your gear icon */
+    float: left; 
+    margin-right: 30px;
+    border-radius: 50%; 
+}
+
+/* --- Buttons and Footer --- */
+.btn {
+    background: #8BAAAD; /* Pastel button */
+    border-radius: 8px; 
+    font-family: 'Fira Code', monospace;
+    color: #FFFFFF; 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; 
+}
+
+.btn:hover {
+    background: #6C8D90; /* Slightly darker when you hover */
+}
+
+.footer-link {
+    color: #6C8D90;
+    font-family: 'Fira Code', monospace;
+    margin: 10px 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #595959;
+}
+
+.copyright {
+    color: #888888;
+    font-size: 0.85rem;
+    padding: 20px 0;
+}
